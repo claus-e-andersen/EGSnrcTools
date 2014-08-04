@@ -1,0 +1,54 @@
+--------------------------------------------------------------------
+File name = mcclan-10500-IUNRST0-thin-slab-version2.egsinp
+MeV = 0.5
+Time for this job= 155 s
+--------------------------------------------------------------------
+File name = mcclan-10501-IUNRST2--thin-slab-version2.egsinp
+MeV = 0.5
+Time for this job= 43 s
+ 
+--------------------------------------------------------------------
+File name = mcclan-10502-IUNRST0-thin-slab-version2.egsinp
+MeV = 1
+Time for this job= 107 s
+--------------------------------------------------------------------
+File name = mcclan-10503-IUNRST2--thin-slab-version2.egsinp
+MeV = 1
+Time for this job= 38 s
+ 
+--------------------------------------------------------------------
+File name = mcclan-10504-IUNRST0-thin-slab-version2.egsinp
+MeV = 2
+Time for this job= 86 s
+--------------------------------------------------------------------
+File name = mcclan-10505-IUNRST2--thin-slab-version2.egsinp
+MeV = 2
+Time for this job= 30 s
+ 
+--------------------------------------------------------------------
+File name = mcclan-10506-IUNRST0-thin-slab-version2.egsinp
+MeV = 5
+Time for this job= 77 s
+--------------------------------------------------------------------
+File name = mcclan-10507-IUNRST2--thin-slab-version2.egsinp
+MeV = 5
+Time for this job= 23 s
+ 
+--------------------------------------------------------------------
+File name = mcclan-10508-IUNRST0-thin-slab-version2.egsinp
+MeV = 10
+Time for this job= 76 s
+--------------------------------------------------------------------
+File name = mcclan-10509-IUNRST2--thin-slab-version2.egsinp
+MeV = 10
+Time for this job= 22 s
+ 
+--------------------------------------------------------------------
+File name = mcclan-10510-IUNRST0-thin-slab-version2.egsinp
+MeV = 20
+Time for this job= 74 s
+--------------------------------------------------------------------
+File name = mcclan-10511-IUNRST2--thin-slab-version2.egsinp
+MeV = 20
+Time for this job= 22 s
+ 

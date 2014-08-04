@@ -1,0 +1,60 @@
+#!/bin/bash
+# Created: July 30, 2014
+# Revised: July 30, 2014
+# Name   : Claus E. Andersen
+
+template="mcclan-sensitivity-template-0001.egsinp"
+prefix="mcclan-"
+start=10500
+postfix="-thin-slab-version2.egsinp"
+logfile="main-sensitivity-log-file.txt"
+xxHistories=10000000
+
+if [ -e "$logfile" ]; then
+      echo "Remove old log file, if it exists."
+      rm "$logfile"
+fi
+touch  "$logfile"
+# ###################################################
+no=$start
+echo "The template is: .... $template" 
+
+# Make a time stamp
+time1=$( date +%s )   
+for xxMeV in 0.5 1 2 5 10 20
+do
+  time10=$( date +%s )   
+  filename="${prefix}${no}-IUNRST0${postfix}"
+  cp $template $filename
+  echo "The energy is $xxMeV and the filename is $filename"
+  echo "--------------------------------------------------------------------" >> $logfile   
+  echo "File name = $filename" >> $logfile   
+  echo "MeV = $xxMeV" >> $logfile   
+  sed -i 's/xxMeV/'$xxMeV'/' "${filename}" 
+  sed -i 's/xxHistories/'$xxHistories'/' "${filename}" 
+  ./egs-parallel2 12 flurznrc -i "${filename}" -p h2o512-IUNRST0
+  time20=$( date +%s )
+  timedelta=$(( $time20 - $time10 ))
+  echo "Time for this job= $timedelta s" >> $logfile   
+  ((no +=1))
+  
+  time10=$( date +%s )   
+  filename2="${prefix}${no}-IUNRST2-${postfix}"
+  cp $filename $filename2
+  echo "--------------------------------------------------------------------" >> $logfile   
+  echo "File name = $filename2" >> $logfile   
+  echo "MeV = $xxMeV" >> $logfile   
+  ./egs-parallel2 12 flurznrc -i "${filename2}" -p h2o512-IUNRST2
+  time20=$( date +%s )
+  timedelta=$(( $time20 - $time10 ))
+  echo "Time for this job= $timedelta s" >> $logfile   
+  echo " " >> $logfile   
+  ((no +=1))
+done
+
+time2=$( date +%s )
+timedelta=$(( $time2 - $time1 ))
+cat "$logfile"
+echo "Time used for main script execution: $timedelta s"
+echo "Number of histories: $xxHistories"
+echo "ByeBye (main)"
