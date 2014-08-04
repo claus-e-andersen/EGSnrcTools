@@ -1,0 +1,189 @@
+#!/bin/bash
+     
+# File   : egs-parallel2.sh
+# Created: July 23, 2014
+# Revised: July 25, 2014
+# Name   : Claus E. Andersen
+
+# Note : This scrip only runs on Linux!
+
+# Motivation:
+# Frederic Tessier from the NCR provided a very nice script 
+# that showed how it is possible to run EGSnrc usercodes in parallel on
+# a multi-core PC without a queuing system. This script is
+# called egs-parallel and was posted on the EGSnrc google-plus
+# web page (posted April 23, 2014). 
+
+# I tried egs-parallel for the RZ user code dosrznrc.
+# Unfortunately, it turned out that this script could only start the parallel
+# processes on the requested number of cores. It could not
+# sum up the results. At least not in my setup (openSUSE linux 13.1).
+# The original script may still work for other user codes (e.g. dosxyznrz).
+
+# The main reason for the problems with running dosrznrc seems to be that the 
+# results (the egsdat-files) from these the individual processes end up in 
+# individual subfolders which are not directly accessable for EGSncr 
+# during post-processing.
+
+# Functionality:
+# This script does four things:
+#    (1) Delete the <inputfile>.lock file if it exists.
+#    (2) Launches the usercode in parallel using n processors. 
+#    (3) Launches the postprocessing (i.e. re-run the usercode with IRESTART= parallel).
+#    (4) Moves the four sub-folders with the temporary results to the folder called junk.
+
+#   Notes:
+#    (1) The scrip should be run from the dosrznrc user-area (i.e. if that user code is used).
+#    (2) The script creates a junk folder for temporary output from the parallel processes.
+#    (3) The input file is changed (and re-established) during the run. Therefore, do not edit and
+#        save the input file while the script runs)!
+#    (4) The script has been tested for user code dosrznrc and flurznrc.
+
+# Syntax:
+#    egs-parallel2 <n> <usercode-call> 
+# where:
+#    n : the number of processes (1 to 99). Is is not a benefit to make n larger than
+#        the number of virtual CPU cores on the host computers.  
+#    usercode-call: dosrznrc, flurznrc etc. with parameters -i infile -p pfile
+#    infile:   the inputfile name with or without the egsinp extension
+#    pfile:    the pegs4 file name
+#
+# Sample call:
+#   ./egs-parallel2 8 dosrznrc -i dosrznrc_template -p 521icru
+#####################################################################################
+
+# Identify the parameters in the call:
+    n=$1
+    shift
+    usercode=$1
+    call="$@"
+    infilefull=""
+    pfile=""
+    ofile=""
+    
+    # Make a time stamp
+    time1=$( date +%s )   
+
+    # Identify the input file and a bit of defensive programming
+    while [ "$1" != "" ]; do
+      case $1 in
+         -i | --input ) shift
+                        infilefull=$1
+                        ;;
+         -p | --pegs-file ) shift
+                        pfile=$1
+                        ;;
+         -o | --output ) shift
+                        ofile=$1
+                        ;;
+         * )            ;;
+        esac
+     shift
+    done
+ 
+    # Strip the optional egsinp extension from the raw input file name:  
+    infile=$(basename $infilefull .egsinp)
+ 
+    # Guess the pre and post fix used by EGSnrc to create subfolders for specific
+    # job outputs (one for each PID):
+    folder_prefix="egsrun"
+    folder_postfix=$HOSTNAME
+    
+    clear
+    
+    echo --------------------------------------------------------------------------------
+    echo "egs-parallel2 runs $usercode with inputfile $infile as n processes"
+    echo --------------------------------------------------------------------------------
+    echo "Call........................ $call"
+    echo "User code................... $usercode"
+    echo "Input file (raw)............ $infilefull"
+    echo "Input file (without .egsinp) $infile"
+    echo "PEGS file .................. $pfile"
+    echo "Sub-folders................. ${folder_prefix}_<PID>_<input file name>_${folder_postfix} (assumption)"
+
+    if [ "$infilefull" = "" ]
+      then 
+         echo "No input file. I'll quit."
+         exit 1
+    fi   
+
+    if [ "$pfile" = "" ]
+      then 
+         echo "No pegs file. I'll quit."
+         exit 1
+    fi   
+
+    if [ "$ofile" != "" ]
+      then 
+         echo "Requested explicit output file: $ofile"
+         echo "Sorry, but this script does not work if you specify the output file. I'll quit."
+         exit 1
+    fi
+    
+    
+    if [ -e "$infile.lock" ]; then
+      echo "Remove old lock file, if it exists."
+      rm "$infile.lock"
+    fi
+
+    
+    # Launch the n jobs
+    for j in `seq $n`; do
+        $call -b -P $n -j $j >/dev/null 2>&1 &
+        processid=`printf %4d $!`
+        echo "LAUNCHED $processid: $call -b -P $n -j $j"
+        PID[$j]=$processid
+    done
+     wait
+
+    # Pull the egsdat-files out of the sub-folders (one for each PID)
+    for j in `seq $n`; do
+      PID=${PID[$j]}
+      folder_W[$j]="${folder_prefix}_${PID}_${infile}_${folder_postfix}"
+      file_W[$j]="${infile}_w${j}.egsdat"
+      cp ${folder_W[$j]}/${file_W[$j]}  ${file_W[$j]} 
+      echo "PID = $PID folder = ${folder_W[$j]} file = ${file_W[$j]}"
+    done
+    
+    
+    echo "After copying, these egsdat-files now exist in the main folder (look after time and size):"
+    ls -all *.egsdat
+  
+    echo "Make a copy of the original input file: ${infile}.egsinp"
+    echo "This copy is called: ${infile}.egsinp.parallel.backup"
+    cp "${infile}.egsinp" "${infile}.egsinp.parallel.backup"
+    echo "Replace IRESTART= first with IRESTART= parallel in the inputfile."
+    sed -i 's/IRESTART= first/IRESTART= parallel/' "${infile}.egsinp" 
+
+    echo "Perform the post-processing (i.e. re-run the input file to combine results):"
+    $call >/dev/null 2>&1 &
+    PID0=`printf %4d $!`
+    echo "LAUNCHED PID $PID0"
+    folder_W0="${folder_prefix}_${PID0}_${infile}_${folder_postfix}"
+    wait
+  
+    echo "Reestablish the original inputfile: ${infile}.egsinps. and remove the backup file."
+    cp "${infile}.egsinp.parallel.backup" "${infile}.egsinp" 
+    rm "${infile}.egsinp.parallel.backup"
+    
+    if [ ! -d "junk-parallel-temp-files" ]; then
+       echo "Creating a folder called: junk-parallel-temp-files"
+       mkdir junk-parallel-temp-files
+    fi
+
+    echo "Move the four sub-folders with temporary results to the junk folder."
+    for j in `seq $n`; do
+      folder=${folder_W[$j]}
+      mv ${folder} "junk-parallel-temp-files/${folder}" 
+    done
+
+    echo --------------------------------------------------------------------------------
+    echo "The combined (post-procedded) results can be found in:"
+    echo ${folder_W0}
+    echo "Done. ByeBye from egs-parallel4."
+    echo --------------------------------------------------------------------------------
+time2=$( date +%s )
+timedelta=$(( $time2 - $time1 ))
+echo "Time used for script execution: $timedelta s"
+
+
