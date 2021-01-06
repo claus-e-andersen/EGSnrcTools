@@ -1,0 +1,143 @@
+TITLE= Brom-82: Dose at 1 m when in W container (one gamma energy pr. computation) 
+
+##########################
+:start I/O control:
+
+IWATCH= off
+STORE INITIAL RANDOM NUMBERS= no
+IRESTART= first
+STORE DATA ARRAYS= yes
+OUTPUT OPTIONS= material summary
+ELECTRON TRANSPORT= normal
+DOSE ZBOUND MIN= 1
+DOSE ZBOUND MAX= 61
+DOSE RBOUND MIN= 0
+DOSE RBOUND MAX= 60
+
+:stop I/O control:
+#########################
+
+##########################
+:start Monte Carlo inputs:
+
+NUMBER OF HISTORIES= 1000000000
+INITIAL RANDOM NO. SEEDS= 1, 3
+MAX CPU HOURS ALLOWED= 90.000
+IFULL= dose and stoppers
+STATISTICAL ACCURACY SOUGHT= 0.0000
+SCORE KERMA= yes
+
+:stop Monte Carlo inputs:
+#########################
+
+##########################
+:start geometrical inputs:
+
+METHOD OF INPUT= groups
+Z OF FRONT FACE= 0.
+NSLAB= 1, 1, 1, 1, 1
+SLAB THICKNESS= 3, 1.75, 3, 1.75, 3
+RADII= 1.75, 4.75, 99.5, 100.5
+MEDIA= AIR521ICRU,
+ W521ICRU,
+ H2O521ICRU;
+ 
+DESCRIPTION BY= planes
+MEDNUM= 1, 2, 3, 3
+START ZSLAB= 1, 1, 2, 3
+STOP ZSLAB= 5, 5, 4, 3
+START RING= 1, 1, 1, 4
+STOP RING= 5, 2, 1, 4
+
+:stop geometrical inputs:
+#########################
+
+##########################
+:start source inputs:
+
+INCIDENT PARTICLE= photon
+SOURCE NUMBER= 3
+SOURCE OPTIONS= 0, 1.75, 3, 9.5
+INCIDENT ENERGY= monoenergetic
+INCIDENT KINETIC ENERGY(MEV)= 3.0
+
+:stop source inputs:
+#########################
+
+##########################
+:start MC transport parameter:
+
+Global ECUT= 0.521
+Global PCUT= 0.01
+Global SMAX= 1e10
+ESTEPE= 0.25
+XImax= 0.5
+Skin depth for BCA= 3
+Boundary crossing algorithm= EXACT
+Electron-step algorithm= PRESTA-II
+Spin effects= on
+Brems angular sampling= KM
+Brems cross sections= BH
+Photon cross sections= xcom
+Electron Impact Ionization= Off
+Photon cross-sections output= off
+Bound Compton scattering= norej
+Pair angular sampling= Simple
+Photoelectron angular sampling= On
+Rayleigh scattering= On
+Atomic relaxations= On
+Set PCUT= 0
+Set PCUT start region= 1
+Set PCUT stop region= 1
+Set ECUT= 0
+Set ECUT start region= 1
+Set ECUT stop region= 1
+Set SMAX= 0
+Set SMAX start region= 1
+Set SMAX stop region= 1
+
+:stop MC transport parameter:
+#########################
+
+##########################
+:start media definition:
+
+
+
+:stop media definition:
+#########################
+
+##########################
+:start variance reduction:
+
+BREM SPLITTING= off
+NUMBER OF BREMS PER EVENT= 1
+CHARGED PARTICLE RUSSIAN ROULETTE= off
+ELECTRON RANGE REJECTION= off
+ESAVEIN= 0.0
+RUSSIAN ROULETTE DEPTH= 0.0000
+RUSSIAN ROULETTE FRACTION= 0.0000
+EXPONENTIAL TRANSFORM C= 0.0000
+PHOTON FORCING= on
+START FORCING= 1
+STOP FORCING AFTER= 1
+CS ENHANCEMENT FACTOR= 1
+CS ENHANCEMENT START REGION= 1, 1
+CS ENHANCEMENT STOP REGION= 1, 1
+
+:stop variance reduction:
+#########################
+
+##########################
+:start plot control:
+
+PLOTTING= on
+LINE PRINTER OUTPUT= off
+EXTERNAL PLOTTER OUTPUT= on
+EXTERNAL PLOT TYPE= Histogram
+PLOT RADIAL REGION IX= 1, 2
+PLOT PLANAR REGION IZ= 10
+
+:stop plot control:
+#########################
+

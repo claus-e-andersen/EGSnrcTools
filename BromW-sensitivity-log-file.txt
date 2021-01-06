@@ -1,0 +1,1147 @@
+--------------------------------------------------------------------
+File name = BromWW-1100.egsinp
+MeV = 0.554
+Time for this job= 5764 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.554 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 3.932E-20+- 2.4%|
+402-          |T-S: 3.549E-20+- 2.4%|
+403-          |K  : 3.957E-20+- 2.4%|
+--------------------------------------------------------------------
+File name = BromWW-1101.egsinp
+MeV = 0.619
+Time for this job= 6275 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.619 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 1.049E-19+- 1.5%|
+402-          |T-S: 9.524E-20+- 1.6%|
+403-          |K  : 1.063E-19+- 1.5%|
+--------------------------------------------------------------------
+File name = BromWW-1102.egsinp
+MeV = 0.698
+Time for this job= 6839 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.698 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 2.505E-19+- 1.1%|
+402-          |T-S: 2.289E-19+- 1.1%|
+403-          |K  : 2.551E-19+- 1.1%|
+--------------------------------------------------------------------
+File name = BromWW-1103.egsinp
+MeV = 0.776
+Time for this job= 7390 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.776 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 4.719E-19+- 0.8%|
+402-          |T-S: 4.332E-19+- 0.8%|
+403-          |K  : 4.822E-19+- 0.8%|
+--------------------------------------------------------------------
+File name = BromWW-1104.egsinp
+MeV = 0.828
+Time for this job= 7738 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.828 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 6.548E-19+- 0.7%|
+402-          |T-S: 6.022E-19+- 0.7%|
+403-          |K  : 6.671E-19+- 0.7%|
+--------------------------------------------------------------------
+File name = BromWW-1105.egsinp
+MeV = 1.044
+Time for this job= 9115 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.044 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 1.778E-18+- 0.5%|
+402-          |T-S: 1.647E-18+- 0.5%|
+403-          |K  : 1.846E-18+- 0.5%|
+--------------------------------------------------------------------
+File name = BromWW-1106.egsinp
+MeV = 1.317
+Time for this job= 10727 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.317 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 3.639E-18+- 0.4%|
+402-          |T-S: 3.386E-18+- 0.4%|
+403-          |K  : 3.842E-18+- 0.4%|
+--------------------------------------------------------------------
+File name = BromWW-1107.egsinp
+MeV = 1.474
+Time for this job= 11636 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.474 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 4.715E-18+- 0.4%|
+402-          |T-S: 4.394E-18+- 0.4%|
+403-          |K  : 5.039E-18+- 0.4%|
+--------------------------------------------------------------------
+File name = BromWW-1108.egsinp
+MeV = 0.1
+Time for this job= 1799 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.100 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 0.000E+00+-99.9%|
+402-          |T-S: 0.000E+00+-99.9%|
+403-          |K  : 0.000E+00+-99.9%|
+--------------------------------------------------------------------
+File name = BromWW-1109.egsinp
+MeV = 0.2
+Time for this job= 2932 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.200 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 0.000E+00+-99.9%|
+402-          |T-S: 0.000E+00+-99.9%|
+403-          |K  : 0.000E+00+-99.9%|
+--------------------------------------------------------------------
+File name = BromWW-1110.egsinp
+MeV = 0.3
+Time for this job= 3737 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.300 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 0.000E+00+-99.9%|
+402-          |T-S: 0.000E+00+-99.9%|
+403-          |K  : 0.000E+00+-99.9%|
+--------------------------------------------------------------------
+File name = BromWW-1111.egsinp
+MeV = 0.4
+Time for this job= 4550 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.400 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 3.763E-22+-19.9%|
+402-          |T-S: 3.315E-22+-20.1%|
+403-          |K  : 3.830E-22+-19.9%|
+--------------------------------------------------------------------
+File name = BromWW-1112.egsinp
+MeV = 0.45
+Time for this job= 4940 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.450 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 3.052E-21+- 7.4%|
+402-          |T-S: 2.703E-21+- 7.5%|
+403-          |K  : 3.069E-21+- 7.4%|
+--------------------------------------------------------------------
+File name = BromWW-1113.egsinp
+MeV = 0.5
+Time for this job= 5366 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.500 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 1.254E-20+- 3.9%|
+402-          |T-S: 1.126E-20+- 4.0%|
+403-          |K  : 1.258E-20+- 3.9%|
+--------------------------------------------------------------------
+File name = BromWW-1114.egsinp
+MeV = 0.511
+Time for this job= 5422 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.511 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 1.769E-20+- 3.4%|
+402-          |T-S: 1.592E-20+- 3.4%|
+403-          |K  : 1.764E-20+- 3.4%|
+--------------------------------------------------------------------
+File name = BromWW-1115.egsinp
+MeV = 0.5
+Time for this job= 5360 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.500 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 1.264E-20+- 3.9%|
+402-          |T-S: 1.136E-20+- 4.0%|
+403-          |K  : 1.267E-20+- 3.9%|
+--------------------------------------------------------------------
+File name = BromWW-1116.egsinp
+MeV = 0.6
+Time for this job= 6120 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.600 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 8.170E-20+- 1.7%|
+402-          |T-S: 7.415E-20+- 1.7%|
+403-          |K  : 8.214E-20+- 1.7%|
+--------------------------------------------------------------------
+File name = BromWW-1117.egsinp
+MeV = 0.65
+Time for this job= 6491 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.650 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 1.533E-19+- 1.3%|
+402-          |T-S: 1.396E-19+- 1.3%|
+403-          |K  : 1.552E-19+- 1.3%|
+--------------------------------------------------------------------
+File name = BromWW-1118.egsinp
+MeV = 0.7
+Time for this job= 6851 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.700 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 2.556E-19+- 1.1%|
+402-          |T-S: 2.336E-19+- 1.1%|
+403-          |K  : 2.608E-19+- 1.1%|
+--------------------------------------------------------------------
+File name = BromWW-1119.egsinp
+MeV = 0.75
+Time for this job= 7193 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.750 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 3.869E-19+- 0.9%|
+402-          |T-S: 3.545E-19+- 0.9%|
+403-          |K  : 3.941E-19+- 0.9%|
+--------------------------------------------------------------------
+File name = BromWW-1120.egsinp
+MeV = 0.8
+Time for this job= 7548 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.800 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 5.509E-19+- 0.8%|
+402-          |T-S: 5.061E-19+- 0.8%|
+403-          |K  : 5.611E-19+- 0.8%|
+--------------------------------------------------------------------
+File name = BromWW-1121.egsinp
+MeV = 0.85
+Time for this job= 7886 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.850 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 7.493E-19+- 0.7%|
+402-          |T-S: 6.894E-19+- 0.7%|
+403-          |K  : 7.650E-19+- 0.7%|
+--------------------------------------------------------------------
+File name = BromWW-1122.egsinp
+MeV = 0.9
+Time for this job= 8206 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.900 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 9.648E-19+- 0.6%|
+402-          |T-S: 8.895E-19+- 0.6%|
+403-          |K  : 9.912E-19+- 0.6%|
+--------------------------------------------------------------------
+File name = BromWW-1123.egsinp
+MeV = 0.95
+Time for this job= 8553 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  0.950 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 1.224E-18+- 0.6%|
+402-          |T-S: 1.130E-18+- 0.6%|
+403-          |K  : 1.262E-18+- 0.6%|
+--------------------------------------------------------------------
+File name = BromWW-1124.egsinp
+MeV = 1.0
+Time for this job= 8855 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.000 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 1.518E-18+- 0.5%|
+402-          |T-S: 1.404E-18+- 0.5%|
+403-          |K  : 1.566E-18+- 0.5%|
+--------------------------------------------------------------------
+File name = BromWW-1125.egsinp
+MeV = 1.1
+Time for this job= 9425 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.100 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 2.148E-18+- 0.5%|
+402-          |T-S: 1.992E-18+- 0.5%|
+403-          |K  : 2.232E-18+- 0.5%|
+--------------------------------------------------------------------
+File name = BromWW-1126.egsinp
+MeV = 1.2
+Time for this job= 10025 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.200 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 2.811E-18+- 0.4%|
+402-          |T-S: 2.610E-18+- 0.4%|
+403-          |K  : 2.953E-18+- 0.4%|
+--------------------------------------------------------------------
+File name = BromWW-1127.egsinp
+MeV = 1.3
+Time for this job= 10631 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.300 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 3.539E-18+- 0.4%|
+402-          |T-S: 3.292E-18+- 0.4%|
+403-          |K  : 3.732E-18+- 0.4%|
+--------------------------------------------------------------------
+File name = BromWW-1128.egsinp
+MeV = 1.4
+Time for this job= 11249 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.400 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 4.196E-18+- 0.4%|
+402-          |T-S: 3.908E-18+- 0.4%|
+403-          |K  : 4.457E-18+- 0.4%|
+--------------------------------------------------------------------
+File name = BromWW-1129.egsinp
+MeV = 1.5
+Time for this job= 11835 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.500 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 4.888E-18+- 0.4%|
+402-          |T-S: 4.558E-18+- 0.4%|
+403-          |K  : 5.244E-18+- 0.4%|
+--------------------------------------------------------------------
+File name = BromWW-1130.egsinp
+MeV = 1.6
+Time for this job= 12395 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.600 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 5.543E-18+- 0.3%|
+402-          |T-S: 5.174E-18+- 0.3%|
+403-          |K  : 5.991E-18+- 0.3%|
+--------------------------------------------------------------------
+File name = BromWW-1131.egsinp
+MeV = 1.7
+Time for this job= 13002 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.700 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 6.182E-18+- 0.3%|
+402-          |T-S: 5.774E-18+- 0.3%|
+403-          |K  : 6.738E-18+- 0.3%|
+--------------------------------------------------------------------
+File name = BromWW-1132.egsinp
+MeV = 1.8
+Time for this job= 13629 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.800 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 6.772E-18+- 0.3%|
+402-          |T-S: 6.328E-18+- 0.3%|
+403-          |K  : 7.434E-18+- 0.3%|
+--------------------------------------------------------------------
+File name = BromWW-1133.egsinp
+MeV = 1.9
+Time for this job= 14192 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  1.900 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 7.317E-18+- 0.3%|
+402-          |T-S: 6.843E-18+- 0.3%|
+403-          |K  : 8.094E-18+- 0.3%|
+--------------------------------------------------------------------
+File name = BromWW-1134.egsinp
+MeV = 2.0
+Time for this job= 14759 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  2.000 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 7.792E-18+- 0.3%|
+402-          |T-S: 7.291E-18+- 0.3%|
+403-          |K  : 8.692E-18+- 0.3%|
+--------------------------------------------------------------------
+File name = BromWW-1135.egsinp
+MeV = 2.5
+Time for this job= 17842 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  2.500 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 9.758E-18+- 0.3%|
+402-          |T-S: 9.147E-18+- 0.3%|
+403-          |K  : 1.129E-17+- 0.3%|
+--------------------------------------------------------------------
+File name = BromWW-1136.egsinp
+MeV = 3.0
+Time for this job= 20839 s
+182-
+183:                   MAX # OF HISTORIES TO RUN          1000000000
+184-                   MAX # OF HISTORIES TO ANALYZE       999996400
+185-                   INCIDENT CHARGE                             0
+185-                   INCIDENT CHARGE                             0
+186:                   INCIDENT KINETIC ENERGY                  3.000 (MeV)
+187-                   GLOBAL ELECTRON TRANSPORT CUT-OFF       0.521 (MeV)
+188-                   GLOBAL PHOTON TRANSPORT CUT-OFF         0.010 (MeV)
+217-
+218:                             SOURCE PARAMETERS
+219-
+220- *******************************************************************************
+221-
+222-         ISOTROPICALLY RADIATING, UNIFORM SOURCE LOCATED
+223-      between radii     0.000     1.750 and DEPTHS     3.000     9.500
+224- \f
+276-    4.7500-----------------------
+277:          |IRL 19 IZ   3 IX   4 |
+278-          | /D/ / /H2O521ICRU   |
+279-          |  MASS   1.885E+03   |
+280-    7.7500-----------------------
+--
+399-    4.7500-----------------------
+400:          |IRL 19 IZ   3 IX   4 |
+401-          |T  : 1.108E-17+- 0.3%|
+402-          |T-S: 1.039E-17+- 0.3%|
+403-          |K  : 1.329E-17+- 0.3%|
