@@ -1,7 +1,7 @@
 EGSnrcTools
 ===========
 
-Here are various tools for relating to the EGSnrc Monte Carlo system for radiation transport simulations and dosimetry.
+Here are various tools relating to the use of the EGSnrc Monte Carlo system for radiation transport simulations and dosimetry.
 
 1. Linux script (bash) for running the code in parallel.
 
