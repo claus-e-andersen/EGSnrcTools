@@ -12,5 +12,5 @@ are put into a single log-file. An example is included. This is the BROM use cas
 or Wolfram container is computed for several gamma energies (including those of the radioactive isotope Br-82).
 
 3. IWATCH-reader. R-script for anayzing egsgph-files output from EGSnrc RZ user codes with IWATCH = graph (4). See pdf file for details.
-The egsgph files includes detailed information about particle positions, particle type, and energy. It is shown how the
+The egsgph files includes detailed information about particle positions, particle type, and energy. It is shown show the
 data can be used for computation of the projected range of electrons.
