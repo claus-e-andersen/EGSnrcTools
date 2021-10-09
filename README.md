@@ -4,6 +4,8 @@ EGSnrcTools
 Here are various tools relating to the use of the EGSnrc Monte Carlo system for radiation transport simulations and dosimetry.
 
 1. egs-parallel2. Linux script (bash) for running the EGSnrc user codes in parallel on a multi-core computer. 
+This script is no longer needed as such functionality has been built into EGSnrc in the 2021 version.
+The script was developed for the RZ user codes only. It uses the IRESTART parameter.
 
 2. egs-sensitivity2. Linux script (bash) for doing sensitivity analysis: one or more parameters (such as the beam energy) are changed and 
 new egsinp-files are created based on a template. The script runs the code, and the main output can be extracted from the 
